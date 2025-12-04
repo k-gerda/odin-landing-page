@@ -1,1 +1,1 @@
-# odin-landing-page
+Practicing CSS flexbox by creating a web page from an Odin Project design. The aim of this web page is to be more or less similar to the provided design.
