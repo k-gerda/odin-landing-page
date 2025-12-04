@@ -1,1 +1,1 @@
-Practicing CSS flexbox by creating a web page from an Odin Project design. The aim of this web page is to be more or less similar to the provided design.
+Practicing CSS flexbox by creating a web page from an Odin Project design. The aim of this web page is to be more or less similar to the provided design. This project doesn't have to adjust for different screen sizes, zoom levels or mobile devices.
