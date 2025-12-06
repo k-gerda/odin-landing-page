@@ -13,11 +13,10 @@ body {
 .section-one,
 .footer {
     background-color: #1F2937;
-    }
+}
 
 .section-three {
     background-color: #e5e7eb;
-
 }
 
 h1 {
@@ -27,6 +26,7 @@ h1 {
 
 a {
     text-decoration: none;
+    margin-left: 20px;
 }
 
 a,
@@ -47,7 +47,6 @@ img,
 button,
 .big-box {
     background-color: #3882F6;
-
 }
 
 h2,
@@ -55,16 +54,18 @@ h2,
     font-size: 36px;
     color: #1F2937;
 }
+
+.logo,
 h1,
 h2,
-.author {
+.author,
+.call-text {
      font-weight: 900;
 }
 
 .quote {
     font-weight: 300;
     font-style: italic;
-
 }
 
 .author {
@@ -79,9 +80,9 @@ h2,
 }
 
 .box {
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -93,10 +94,109 @@ button {
 
 .big-box button {
     border-color: #f9faf8;
+    margin-left: auto;    
 }
 
 img {
     width: 350px;
     height: 150px;
-    background-color: rgb(105, 99, 99);   
+    background-color: rgb(105, 99, 99);  
+    flex-shrink: 0;          
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-one {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 10px 20px 10px 0px;
+}
+
+button {
+    width:116px;
+    height: 31px;
+    padding: 3px 25px;     
+}
+
+button:hover {
+    background-color: #093172;
+    border:#093172;
+}
+
+.section-two {
+    padding: 50px 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.boxes {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+}
+
+.subtext {
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.section-three {
+    padding: 50px 200px;         
+}
+
+.author {
+    text-align: right;
+    margin-top:20px;
+}
+
+.section-four {
+    padding: 50px 100px;
+}
+
+.big-box {
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.call-text {
+    font-size: 24px;
+}
+
+.header {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-right: auto;    
+}
+
+.footer {
+    padding:20px;
+    text-align: center;   
 }
